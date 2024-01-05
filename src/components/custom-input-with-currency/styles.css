@@ -1,0 +1,4 @@
+.custom-input-with-currency input,
+.custom-input-with-currency input:focus {
+    padding-left: .3rem;
+}

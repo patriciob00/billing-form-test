@@ -1,0 +1,62 @@
+.custom-input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.custom-input-container label {
+    color: black;
+    font-size: 0.5rem;
+    margin-bottom: 2px;
+    height: 0.75rem;
+}
+
+.custom-input-container .input-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-row .currency-sign {
+    position: absolute;
+    width: 1rem;
+    color: black;
+    height: 1.2rem;
+    font-size: .7rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.custom-input-container input, 
+.custom-input-container input:focus,
+.custom-input-container select {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 0px;
+    height: 1.2rem;
+    font-size: .7rem;
+    width: 100%;
+    flex: 1;
+}
+
+.custom-input-container input:disabled {
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+.custom-input-container.with-currency-sign input {
+    padding-left: 1.1rem;
+}
+
+.input-lg {
+    width: calc(47% - 2px);
+}
+
+.input-md {
+    width: calc(33% - 2px);
+}
+
+.input-sm {
+    width: calc(25% - 2px);
+}

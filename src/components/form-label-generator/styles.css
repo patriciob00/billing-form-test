@@ -1,0 +1,9 @@
+.label-generator-content {
+    margin: 5px 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 0px;
+    font-size: .7rem;
+    color: black;
+    font-weight: 500;
+}

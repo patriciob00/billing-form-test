@@ -1,8 +1,33 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Billing Form Test
 
-Currently, two official plugins are available:
+this is a test project that creates billing labels that will be generated taking into account some variables.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+it was built using Vite as build tool and you can check some docs references in the [references section](#references)
+
+## Demonstration
+![Alt Text](./demonstration.gif)
+
+
+## How to run
+
+```bash
+  git clone https://github.com/patriciob00/billing-form-test.git
+  cd billing-form-test
+  npm install
+  npm run dev
+```
+
+## How to test
+
+```bash
+  npm run test
+```
+    
+## References
+
+ - [Vite docs](https://vitejs.dev/guide/)
+
+
+
+
